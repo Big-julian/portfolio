@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+ }
+
+ 
+.header {
+    width : 100%;
+    height : 70vh;
+    padding : 20px 50px;
+    background: blue;
+}
+.navs {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color : white
+ }
+ .navs ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+ }
+ .navs ul li {
+    font-size: 18px;
+    font-weight: 500;
+    color : white;
+    cursor: pointer;
+ }
+ .navs ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color : white;
+    cursor: pointer;
+    text-decoration: none;
+ }
+
+.navs ul li a:hover {
+   font-weight: bolder;
+   color : red;
+   text-decoration: underline;
+   
+}
+
+.navs ul li a:visited {
+    font-weight: bolder;
+    color : green;
+    text-decoration: underline;
+ }
+
+ .navs ul li a:link {
+    font-weight: bolder;
+    color : black;
+    text-decoration: underline;
+ }
+
+ .hero {
+    margin : 100px 0;
+ }
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color : white;
+    text-align: center;
+}
+.hero p {
+    color : white;
+    text-align : center;
+    font-weight : 400;
+    font-size : 16px;
+    width : 60%;
+    margin : 20px auto;
+}
+.hero button {
+    padding : 10px 20px;
+    background: white;
+    color : blue;
+    border-radius: 12px;
+    outline: none;
+    border : none;
+    font-weight: bold;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+.section-two {
+    display: flex;
+    gap : 50px;
+    padding : 100px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    padding : 30px;
+    border : 1px solid black
+}
+.card h4 {
+    color : blue;
+    font-weight: 600;
+    font-size : 20px;
+}
+.card p {
+    margin : 20px 0;
+}
+
+.card button {
+    padding : 10px 20px;
+    background: blue;
+    color : white;
+    border-radius: 12px;
+    outline: none;
+    border : none;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+.recent-container {
+    padding : 50px;
+}
+.recent-container h4 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    color : blue;
+    margin : 50px 0;
+}
+.job-card-container {
+    display: flex;
+    gap : 30px;
+    align-items: start;
+    justify-content: center;
+}
+.job-card {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    padding : 30px;
+    border : 1px solid black
+}
+
+.job-card h4 {
+    text-align: left;
+    color: blue;
+    font-size: 20px; 
+    margin: 10px 0;       
+}
+.job-card button {
+    padding : 10px 20px;
+    background: blue;
+    color : white;
+    border-radius: 12px;
+    outline: none;
+    border : none;
+    font-weight: bold;
+    margin-top : 20px;
+    cursor: pointer;
+}
+.amount {
+    font-weight: 600;
+}
+footer {
+    background: blue;
+    color : white;
+    text-align: center;
+    padding: 50px;
+}
+.hero {
+    margin : 100px 0;
+    background-color: blue;
+ }
+
+.hero h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color : white;
+    text-align: center;
+}
+.hero p {
+    color : white;
+    text-align : center;
+    font-weight : 400;
+    font-size : 16px;
+    width : 60%;
+    margin : 20px auto;
+}
+footer {
+    background: blue;
+    color : white;
+    text-align: center;
+    padding: 50px;
+}
+ .social-media {
+        text-align: center;
+        margin-top: 20px;
+        background-color:white;
+    }
+    .social-icons {
+        display: inline-block;
+    }
+    
+    .social-icons a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        footer {
+            background: blue;
+            color : white;
+            text-align: center;
+            padding: 50px;
+        }
+        .hero h1 {
+    font-size:32px;
+    font-weight:700;
+    color : white;
+    text-align:center;
+}
+.hero p {
+    color : white;
+    text-align : center;
+    font-weight : 400;
+    font-size : 16px;
+    width : 60%;
+    margin : 20px auto;
+}
+.hero button {
+    padding : 10px 20px;
+    background: white;
+    color : blue;
+    border-radius: 12px;
+    outline: none;
+    border : none;
+    font-weight: bold;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+.section-two {
+    display: flex;
+    gap : 50px;
+    padding : 100px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    padding : 30px;
+    border : 1px solid black
+}
+.card h4 {
+    color : blue;
+    font-weight: 600;
+    font-size : 20px;
+}
+.card p {
+    margin : 20px 0;
+}
+
+.card button {
+    padding : 10px 20px;
+    background: blue;
+    color : white;
+    border-radius: 12px;
+    outline: none;
+    border : none;
+    font-weight: bold;
+    cursor: pointer;
+}
+    footer {
+        background: blue;
+        color : white;
+        text-align: center;
+        padding: 50px;
+    }
+    .career-page {
+        margin : 50px 0;
+     }
+    
+    .career-page {
+        font-size: 32px;
+        font-weight: 700;
+        color : white;
+        text-align: center;
+    }
+    .career-page p {
+        color : white;
+        text-align : center;
+        font-weight : 400;
+        font-size : 20px;
+        width : 60%;
+        margin : 20px auto;
+    }
+    
+    .why.join{
+        display: flex;
+        gap : 50px;
+        padding : 100px;
+        justify-content: center;
+    }
+    
+    .why-join h3{
+        background: white;
+         width: 500px;
+        padding : 30px;
+        color : blue;
+        font-weight:bold;
+        font-size : 20px;
+    }
+    .current-openings{
+        padding :20px;
+    }
+    .current-openings h3 {
+        font-weight: 700;
+        text-align: left;
+        font-size: 24px;
+        color : blue;
+        margin : 50px 0;
+    }
+    .current-openings p {
+        display: flex;
+        gap : 30px;
+        align-items: start;
+        justify-content:left;
+    }
+    .application-process{
+        margin : 50px 0;
+    }
+    .application-process h3 {
+        font: weight 200px;
+        text-align: left;
+        font-size: 24px;
+        color : blue;
+        margin : 50px 0;
+    }
+    .application-process p{
+        display: flex;
+        align-items: start;
+        justify-content:left;
+    }
+    .employee-testimonials {
+        margin : 50px 0;
+     }
+    
+    .employee-testimonials h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color :blue;
+        text-align: left;
+    }
+    .employee-testimonials  p {
+        color : white;
+        text-align : center;
+        font-weight : 400;
+        font-size : 16px;
+        width : 60%;
+        margin : 20px auto;
+    }
+    .img:hover {
+        transform: scale(0.8);
+    }
+    .folake-icon {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
